@@ -1,0 +1,32 @@
+https://realnoevremya.ru/uploads/news/bd/a5/0221960926004aeb.jpg
+
+html body {
+  background-image: url('../assets/images/snow_flakes.jpg');
+}
+
+.timetable > * > tr > th {
+    background-color: #8398ca;
+    text-align: center;
+}
+.timetable > tr > th,
+.timetable > tr > td,
+.timetable > * > tr > th,
+.timetable > * > tr > td {
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+  th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+  }
+  .timetable {
+    background-color: #d6dbed;
+    color: #202122;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+  }
+h2, .timetable{
+  margin: 20px 100px 20px 100px;
+}

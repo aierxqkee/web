@@ -1,0 +1,432 @@
+<html>
+<title>Record Breakers | TTW</title>
+<link rel="stylesheet" type="text/css" href="records.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<head><link rel="icon" href="favicon.ico" type="image/x-icon"></head>
+
+<body>
+  <div id="snow"></div>
+  <script>
+  document.addEventListener('DOMContentLoaded', function(){
+      var script = document.createElement('script');
+      script.src = 'app.js';
+      script.src = 'particles.js';
+      script.onload = function(){
+          particlesJS("snow", {
+              "particles": {
+                  "number": {
+                      "value": 200,
+                      "density": {
+                          "enable": true,
+                          "value_area": 800
+                      }
+                  },
+                  "color": {
+                      "value": "#ffffff"
+                  },
+                  "opacity": {
+                      "value": 0.7,
+                      "random": false,
+                      "anim": {
+                          "enable": false
+                      }
+                  },
+                  "size": {
+                      "value": 5,
+                      "random": true,
+                      "anim": {
+                          "enable": false
+                      }
+                  },
+                  "line_linked": {
+                      "enable": false
+                  },
+                  "move": {
+                      "enable": true,
+                      "speed": 5,
+                      "direction": "bottom",
+                      "random": true,
+                      "straight": false,
+                      "out_mode": "out",
+                      "bounce": false,
+                      "attract": {
+                          "enable": true,
+                          "rotateX": 300,
+                          "rotateY": 1200
+                      }
+                  }
+              },
+              "interactivity": {
+                  "events": {
+                      "onhover": {
+                          "enable": false
+                      },
+                      "onclick": {
+                          "enable": false
+                      },
+                      "resize": false
+                  }
+              },
+              "retina_detect": true
+          });
+      }
+      document.head.append(script);
+  });</script>
+  <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" style="color: #EDEEF7" href="#">Tutberidze Wiki</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" style="color: #EDEEF7" href="index.html">MAIN</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" style="color: #EDEEF7" href="brief.html">BRIEF</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" style="color: #EDEEF7"  href="records.html">RECORDS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" style="color: #EDEEF7"  href="olympics.html">OLYMPIC GAMES 2022</a>
+                      </li>
+                  </ul>
+              </div>
+      </nav>
+  </section>
+    <br><br>
+
+
+    <div style="text-align:center">
+        <h2>The Tutberidze Figure Skating Saga</h2>
+    </div>
+    <div class="border-line" style="margin: 20px 0px 10px 0px"></div>
+
+    <br>
+    <div class="right-col">
+            <img src="play.png" id="icon0">
+        </div>
+
+        <audio id="lip">
+            <source src="lip.mp3" type="audio/mp3">
+        </audio>
+
+        <footer>
+            <script>
+                var lip = document.getElementById("lip");
+                var icon0  = document.getElementById("icon0");
+                icon0.onclick = function(){
+                    if(lip.paused) {
+                        lip.play();
+                        icon0.src = "pause.png";
+                    } else{
+                        lip.pause();
+                        icon0.src = "play.png";
+                    }
+                }
+            </script>
+        </footer>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col-md-4 text-center">
+                <img src="https://s74794.cdn.ngenix.net/m/e17b/d01b/8c6f/00e0/e0e3/1cc6/bc94/fd83/1600_1000_max.jpeg" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="records-text">
+                    <p>Yulia Lipnitskaya is the youngest Olympic single champion in the history of figure skating, having
+                        won the title in
+                        the team tournament at the age of 15 years 249 days.</p>
+                        <p>Yulia Lipnitskaya, after winning the team competition, also became the first single figure skater in the history
+                            of
+                            Russia and the USSR to win the title of Olympic champion. She is also the youngest winner of the European
+                            Championships in the history of figure skating.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <div class="right-col">
+            <img src="play.png" id="icon1">
+        </div>
+
+        <audio id="zag">
+            <source src="zag.mp3" type="audio/mp3">
+        </audio>
+
+        <footer>
+            <script>
+                var zag = document.getElementById("zag");
+                var icon1  = document.getElementById("icon1");
+                icon1.onclick = function(){
+                    if(zag.paused) {
+                        zag.play();
+                        icon1.src = "pause.png";
+                    } else{
+                        zag.pause();
+                        icon1.src = "play.png";
+                    }
+                }
+            </script>
+        </footer>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col-md-8">
+                <div class="records-text">
+                    <p>The first single figure skater in the history of Russia and the second in world history (after Kim Yong Ah), who
+                        won
+                        all the titles in world figure skating, the youngest figure skater who managed to win all the main starts.</p>
+                        <p>Alina Zagitova is the first junior to score more than 70 points in the short program and 200 points in the sum of
+                            the
+                            programs; the first and only figure skater to overcome the threshold of 82 points in the short program according
+                            to
+                            the old judging system and the first figure skater to score 80 points in the short program and more than 150 in
+                            the
+                            free program according to the new one. She once broke the world record in the short program under the old
+                            (2004-2018) judging system and four times under the new one (2018 onwards).</p>
+
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://avatars.mds.yandex.net/get-zen_doc/1709225/pub_5dba9fe7fbe6e700ae30f5d8_5dbaacd7118d7f00b0434382/scale_1200" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+<br>
+    <div class="right-col">
+            <img src="play.png" id="icon2">
+        </div>
+
+        <audio id="med">
+            <source src="med.mp3" type="audio/mp3">
+        </audio>
+
+        <footer>
+            <script>
+                var med = document.getElementById("med");
+                var icon  = document.getElementById("icon2");
+                icon2.onclick = function(){
+                    if(med.paused) {
+                        med.play();
+                        icon2.src = "pause.png";
+                    } else{
+                        med.pause();
+                        icon2.src = "play.png";
+                    }
+                }
+            </script>
+        </footer>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col-md-4 text-center">
+                <img src="https://cdni.rt.com/russian/images/2018.02/article/5a806d3c18356165418b4567.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="records-text">
+                    <p>According to the previous rating system, Evgenia Medvedeva is the first figure skater in the history of women's
+                        figure skating who scored more than 160 points in the free program, more than 80 points in the short program,
+                        and
+                        more than 240 points in total. The owner of historical world records in the free program and in the sum of
+                        points.
+                        She updated the world records in short and free programs 4 times, according to the sum of points - 3 times. She
+                        broke the world records of Kim Yong Ah and Mao Asada.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="right-col">
+            <img src="play.png" id="icon3">
+        </div>
+
+        <audio id="sc">
+            <source src="sc.mp3" type="audio/mp3">
+        </audio>
+
+        <footer>
+            <script>
+                var sc = document.getElementById("sc");
+                var icon3  = document.getElementById("icon3");
+                icon3.onclick = function(){
+                    if(sc.paused) {
+                        sc.play();
+                        icon3.src = "pause.png";
+                    } else{
+                        sc.pause();
+                        icon3.src = "play.png";
+                    }
+                }
+            </script>
+        </footer>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col-md-8">
+                <div class="records-text">
+                    <p>Anna Shcherbakova is the first senior woman to land a quad Lutz. Additionally, in 2019 she became the first woman
+                        to
+                        land two quad Lutz jumps in a program, with one done in combination with a triple toe loop. Shcherbakova has
+                        also
+                        landed a quad flip in domestic competition at the 2019 Russian Championships.</p>
+
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://img.gazeta.ru/files3/863/13256863/RIAN_6336224.HR-pic905-895x505-799.jpg"class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="right-col">
+            <img src="play.png" id="icon4">
+        </div>
+
+        <audio id="kos">
+            <source src="kos.mp3" type="audio/mp3">
+        </audio>
+
+        <footer>
+            <script>
+                var kos = document.getElementById("kos");
+                var icon4  = document.getElementById("icon4");
+                icon4.onclick = function(){
+                    if(kos.paused) {
+                        kos.play();
+                        icon4.src = "pause.png";
+                    } else{
+                        kos.pause();
+                        icon4.src = "play.png";
+                    }
+                }
+            </script>
+        </footer>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col-md-4 text-center">
+                <img src="https://cdnn21.img.ria.ru/images/07e5/0b/14/1759979764_0:0:2041:1148_1920x0_80_0_0_36a0a6c13799f2a7861570220b1748d0.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="records-text">
+
+                <p>Alena Kostornaia currently holds the world record for the highest junior short program score in women's skating
+                        (22 November 2019, 85.04, 2019 NHK Trophy).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="right-col">
+            <img src="play.png" id="icon5">
+        </div>
+
+        <audio id="tru">
+            <source src="tru.mp3" type="audio/mp3">
+        </audio>
+
+        <footer>
+            <script>
+                var tru = document.getElementById("tru");
+                var icon5  = document.getElementById("icon5");
+                icon5.onclick = function(){
+                    if(tru.paused) {
+                        tru.play();
+                        icon5.src = "pause.png";
+                    } else{
+                        tru.pause();
+                        icon5.src = "play.png";
+                    }
+                }
+            </script>
+        </footer>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col-md-8">
+                <div class="records-text">
+                    <p>Trusova is the first female skater to land the quad Lutz, quad flip, and quad toe loop jumps, the first to land
+                        two
+                        and three ratified quads in a free skate. She currently holds four Guinness World Records; the fourth in
+                        recognition
+                        of her landed quadruple flip. Her technical score of 92.35 points was the highest ever recorded in women's
+                        singles
+                        skating at the junior and senior level until the GOE (Grade of Execution) system was changed at the end of the
+                        2017–18 season.</p>
+                    <p>She set another record by becoming the first female skater to land a quadruple jump in combination, a quad toe
+                        loop,
+                        and a triple toe loop. Trusova is the first and currently only female skater competing with four different types
+                        of
+                        quadruple jumps—toe loop, Salchow, flip, and Lutz. She is also the first female skater in history to score above
+                        100
+                        in technical elements.</p>
+
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://i.ytimg.com/vi/AOv9Y5S1kiY/maxresdefault.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="right-col">
+            <img src="play.png" id="icon6">
+        </div>
+
+        <audio id="val">
+            <source src="val.mp3" type="audio/mp3">
+        </audio>
+
+        <footer>
+            <script>
+                var val = document.getElementById("val");
+                var icon6  = document.getElementById("icon6");
+                icon6.onclick = function(){
+                    if(val.paused) {
+                        val.play();
+                        icon6.src = "pause.png";
+                    } else{
+                        val.pause();
+                        icon6.src = "play.png";
+                    }
+                }
+            </script>
+        </footer>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col-md-4 text-center">
+                <img src="https://cdnn21.img.ria.ru/images/07e5/0a/1f/1757062588_803:0:2803:1125_1920x0_80_0_0_653698a2af299249b29ece8c7ff0dbaf.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="records-text">
+
+                    <p>Kamila Valieva is the current world record holder for the women's short program, free skating, and total scores.
+                        She
+                        has set nine world records during her career. She is the first woman skater to break the 250-, 260- and 270-
+                        point
+                        thresholds in the total score, within one season, the first to break the 170- and 180- point thresholds in the
+                        free
+                        skate, and the first to break the 90- point thresholds in the short program.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="icon-bar">
+      <a class="active" href="index.html"><i class="fa fa-home"></i></a>
+      <a href="olympics.html"><i class="fa fa-search"></i></a>
+      <a href="brief.html"><i class="fa fa-envelope"></i></a>
+      <a href="records.html"><i class="fa fa-globe"></i></a>
+    </div>
+    <footer>
+        <script src="js/bootstrap.min.js"></script>
+    </footer>
+</body>
+
+</html>

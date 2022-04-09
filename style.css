@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Rob;
+    src: url(assets/fonts/Roboto-Regular.tff);
+}
+@font-face {
+    font-family: Archi;
+    src: url(assets/fonts/Archivo-VariableFont.ttf);
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(assets/fonts/BebasNeue-Regular.ttf);
+}
+body * {
+    font-family: Rob;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', cursive;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #B4CFFA;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: scroll;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+  }
+.navbar
+{
+    background-color: #1A2653;
+    padding: 0 !important;
+}
+navbar-brand img
+{
+    height: 1px;
+    padding-left: 3px;
+}
+
+
+.record-text {
+    padding: 40px 10px 40px 10px;
+    border: #000033 2px dashed;
+    height: 100%;
+}
+
+.border-line {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: #000033 3px solid;
+}
+
+.carousel-item > img {
+    max-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.olympics-text{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border: #ca9ddb 2px;
+    height: 75%;
+
+}
+
+#myCarousel .carousel-item .carousel-caption {
+    font-family: 'Roboto', sans-serif;
+
+}
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+h2 {
+  margin: 20px 0px 20px 0px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.right-col{
+    top: 10px;
+    left: 50vw;
+    margin-right: 6%;
+    display: flex;
+}
+.right-col p{
+font-size: 18px;
+color: #5f5f5f;
+font-weight: 400;
+margin-right: 15px;
+}
+  #icon0, #icon1, #icon2, #icon3, #icon4, #icon5, #icon6{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0px;
+  }
+  .img-fluid {
+    border:  3px solid #1A2653;
+  }
+
+.button {
+  padding: 10px 10px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 1 5px #666;
+  transform: translateY(4px);
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #1A2653;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 30%;
+  border-radius: 40%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 70%;
+  }
+}
+#myBtn{
+  background-color: #1A2653;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #1A2653; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+
+  .active {
+    background-color: #000; /* Add an active/current color */
+  }
